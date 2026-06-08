@@ -235,3 +235,19 @@ section.sobre .flex{
 .sobre .img-sobre img{
   border-radius: 30px;
 }
+
+/* ESTILO DE PROJETOS */
+section.projetos{
+  padding: 80px 4%; 
+}
+
+section.projetos .flex{
+  justify-content: space-around;
+}
+
+.img-projetos{
+  width: 360px;
+  height: 460px;
+  background-color: #000000;
+}
+
