@@ -183,8 +183,9 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .contato button{
+.contato button{
     box-shadow: 0px 0px 8px;
+    cursor: pointer;
 }
 
 /* ESTILO DO TOPO DO SITE */
@@ -208,4 +209,29 @@ section.topo-do-site .flex{
 
 .contato button{
   transform: scale(1.05);
+}
+
+
+/* ESTILO DO SOBRE */
+section.sobre{
+  padding: 80px 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .img-sobre img{
+  border-radius: 30px;
 }
