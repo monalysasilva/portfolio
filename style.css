@@ -188,7 +188,7 @@ header nav ul li{
     cursor: pointer;
 }
 
-/* ESTILO DO TOPO DO SITE */
+/* ESTILO DO INÍCIO */
 section.topo-do-site{
   padding: 40px 4%;
 }
@@ -239,15 +239,68 @@ section.sobre .flex{
 /* ESTILO DE PROJETOS */
 section.projetos{
   padding: 80px 4%; 
+  text-align: center;
+  font-size: 30px;
 }
 
 section.projetos .flex{
   justify-content: space-around;
+  margin-top: 60px;
 }
 
 .img-projetos{
   width: 360px;
   height: 460px;
-  background-color: #000000;
+  background-color: #aeabab00;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
 }
 
+.img-projetos:hover{
+  background-position: 100% 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000086;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  opacity: 0;
+  transition: .5s;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+section.projetos .txt-projetos h2{ 
+  /* Não tá funcionado */
+    font-size: 40px;
+    text-align: center;
+}
+
+section.projetos .txt-projetos p{
+  /* Não tá funcionando */
+  text-align: 20px;
+}
+/* FOOTER */
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
