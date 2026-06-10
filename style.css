@@ -296,6 +296,13 @@ section.projetos .txt-projetos p{
   /* Não tá funcionando */
   text-align: 20px;
 }
+
+.projetos p {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 /* FOOTER */
 
 footer {
