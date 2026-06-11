@@ -14,6 +14,9 @@
     <title>Portfólio-Início</title>
 </head>
 <body>
+    <div id="mensagemBoasVindas">
+        Seja bem-vindo(a) ao meu portfólio!
+    </div>
     <header>
         <div class="interface">
             <div class="logo">
@@ -29,9 +32,9 @@
                 </ul>
             </nav>
             <div class="contato">
-                <a href="">
-                    <button class="botão">Contato</button>
-                </a>
+                    <button class="botão" onclick="enviarEmail()">
+                    <i class="bi bi-envelope"></i>        Contato
+                </button>
             </div>
         </div> <!--interface-->
     </header>
@@ -57,10 +60,10 @@
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--topo-do-site-->
-       
     </main>
      <footer>
-  <p>© 2026 Monalysa Silva. Todos os direitos reservados.</p>
-</footer>
+        <p>© 2026 Monalysa Silva. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

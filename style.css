@@ -35,7 +35,7 @@ a:hover{
     transform: scale(1.05);
     display: inline-block;
     transition: .2s;
-
+  
 .poppins-extralight {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -207,6 +207,10 @@ section.topo-do-site .flex{
   margin: 30px 0;
 }
 
+.topo-do-site .img-topo-site img{
+  border-radius: 30px;
+}
+
 .contato button{
   transform: scale(1.05);
 }
@@ -277,7 +281,7 @@ section.projetos .flex{
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  color: #000000;
+  color: #e1e1e1;
   opacity: 0;
   transition: .5s;
 }
@@ -287,13 +291,11 @@ section.projetos .flex{
 }
 
 section.projetos .txt-projetos h2{ 
-  /* Não tá funcionado */
     font-size: 40px;
     text-align: center;
 }
 
 section.projetos .txt-projetos p{
-  /* Não tá funcionando */
   text-align: 20px;
 }
 
@@ -303,11 +305,35 @@ section.projetos .txt-projetos p{
     line-height: 1.6;
 }
 
+.botão {
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #000000;
+    color: #e1e1e1;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
 /* FOOTER */
 
 footer {
   background-color: #111;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 25px 0;
+}
+
+#mensagemBoasVindas {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #e1e1e1;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    z-index: 1000;
 }
